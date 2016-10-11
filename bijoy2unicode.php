@@ -19,7 +19,10 @@
     Copyright:
                GNU AFFERO GENERAL PUBLIC LICENSE, Version 3 (AGPL-3.0)
  
-  
+    
+    Version: 1.1
+    Date: Oct 10, 2016, 8:47 AM
+        Some bug fixed by AnonTech.info (https://github.com/AnonTech/BijoyToUnicode).
 */
 
 
@@ -132,7 +135,7 @@ $conversionMap = array(
     'Š' => 'ৗ', // Ou-Kar
     '\\|' => '।', // Full-Stop
     '\\&' => '্‌', // Ho-shonto
-    //	Jukto Okkhor
+    //  Jukto Okkhor
     '\\^' => '্ব',
     '‘' => '্তু',
     '’' => '্থ',
@@ -168,6 +171,7 @@ $conversionMap = array(
     '´' => 'ক্ম',
     'µ' => 'ক্র',
     '¶' => 'ক্ষ',
+    'ÿ' => 'ক্ষ',
     '·' => 'ক্স',
     '¸' => 'গু',
     '¹' => 'জ্ঞ',
@@ -264,6 +268,8 @@ $postConversionMap = array(
     '\\[ঃ' => '\\[:',
     '  ' => ' ',
     'অা' => 'আ',
+    'লস্ন' => 'ল্ল',
+    'রম্ন' => 'রু',
     '্‌্‌' => '্‌'
 );
 

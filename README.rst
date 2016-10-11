@@ -1,11 +1,13 @@
 =================================
-Bijoy to Unicode Converter v 1.0
+Bijoy to Unicode Converter v 1.1
 =================================
 -----------
 Description
 -----------
 This is a PHP script to convert any string, document written in Bijoy font (eg SutonnyMJ) to Unicode (UTF-8) format.
 
+Some bug fixed by AnonTech.info (https://github.com/AnonTech/BijoyToUnicode).
+Check the updated example.php for sample output.
 
 --------------------
 Prerequisite
